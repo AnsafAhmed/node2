@@ -1,1 +1,2 @@
+service: service2
 runtime: nodejs18
