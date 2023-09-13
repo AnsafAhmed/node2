@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
 
 app.post('/user', (req,res) => {
     console.log(req);
+    res.send(req);
 })
 
 sequelize.authenticate().then(() => {
